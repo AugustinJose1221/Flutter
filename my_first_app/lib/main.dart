@@ -30,7 +30,7 @@ class MyHomePageState extends State<HomePage> with TickerProviderStateMixin
   {
     Color backgroundColor = Theme.of(context).cardColor;
     Color foregroundColor = Theme.of(context).accentColor;
-    return new Scaffold(appBar: new AppBar(title: new Text('Speed Dialer')),
+    return new Scaffold(appBar: new AppBar(title: new Text('Fark')),
                         floatingActionButton: new Column(mainAxisSize: MainAxisSize.min,
                                                         children: new List.generate(icons.length, (int index)
                                                         {
